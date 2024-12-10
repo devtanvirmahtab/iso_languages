@@ -1,11 +1,10 @@
 name: iso_languages
 description: "A Flutter package to work with ISO 639-1 language codes, providing language names, native names, and utility functions."
-version: 0.0.1
-homepage:
+version: 1.0.0
+homepage: https://github.com/devtanvirmahtab/iso_languages
 
 environment:
-  sdk: ^3.5.4
-  flutter: ">=1.17.0"
+  sdk: ">=3.5.4 <4.0.0"
 
 dependencies:
   flutter:
@@ -18,9 +17,3 @@ dev_dependencies:
 
 # License information
 license: MIT
-
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
-# The following section is specific to Flutter packages.
-flutter:
