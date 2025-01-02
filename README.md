@@ -42,6 +42,14 @@ dependencies:
       // Get the native name of the language
       String nativeName = isoLanguage(shortName: 'ab', isNativeName: true);
       print('Native Name: $nativeName'); // Output: аҧсуа бызшәа
+      
+       // Get the Full name of the language
+      String name = isoLanguage(shortName: 'bn');
+      print('Full Name: $name'); // Output: Bengali
+      
+       // Get the native name of the language
+      String nativeName = isoLanguage(shortName: 'bn', isNativeName: true);
+      print('Native Name: $nativeName'); // Output: বাংলা
     
       // Handle unknown codes gracefully
       String unknown = isoLanguage(shortName: 'unknown');
